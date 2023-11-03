@@ -31,12 +31,12 @@ ol {
 }
 .our-courses-section-items-wrap {
 }
-.our-courses-section-items:not(last) {
+.our-courses-section-items {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
-.our-cources-section-item {
+.our-courses-section-item {
   padding: 28px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -68,7 +68,7 @@ ol {
   justify-content: center;
   align-items: center;
 }
-.our-cources-arrow-icon {
+.our-courses-arrow-icon {
   fill: #777777;
 }
 .our-courses-section-item-title {
@@ -116,7 +116,7 @@ ol {
     flex-wrap: wrap;
     justify-content: center;
   }
-  .our-cources-section-item {
+  .our-courses-section-item {
   }
 }
 @media (min-width: 1280px) {
