@@ -1,6 +1,5 @@
 ol {
   list-style-type: none;
-  padding: 0;
 }
 /* .our-courses-section {
 } */
@@ -36,7 +35,6 @@ ol {
 }
 .our-courses-section-item {
   width: 335px;
-  height: 398px;
   padding: 28px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -107,7 +105,6 @@ ol {
   }
   .our-courses-section-item {
     width: 342px;
-    height: 452px;
     padding: 32px;
   }
   .our-courses-section-text {
