@@ -16,7 +16,7 @@
   
 
   <script type="module" crossorigin src="/Lucky-13/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/Lucky-13/assets/index-ea9e054b.css">
+  <link rel="stylesheet" href="/Lucky-13/assets/index-032c8b9b.css">
 </head>
 
 <body>
@@ -44,24 +44,23 @@
             <ul class="list-circles-hero">
 
                 <li class="item-circles-hero">
-                    <img src="" class="first-girl" alt="First girl" width="" height="" />
+                    <img src="../img/hero/girl 1.png" class="first-girl" alt="First girl" />
                 </li>
 
                 <li class="item-circles-hero">
-                    <img src="" class="boy" alt="Boy" width="" height="" />
+                    <img src="../img/hero/boy.png" class="boy" alt="Boy" width="44" height="44" />
                 </li>
 
                 <li class="item-circles-hero">
-                    <img src="" class="second-girl" alt="Second girl" width="" height="" />
+                    <img src="../img/hero/girl.png" class="second-girl" alt="Second girl" width="44" height="44" />
                 </li>
             </ul>
-
             <div class="container-reviews-hero">
-
-                <svg width="" height="" class="star-reviews-hero">
-                    <use href=""></use>
-                </svg>
-
+                <div class="container-for-star-reviews-hero">
+                    <svg width="20" height="20" class="star-reviews-hero">
+                        <use href="../img/hero/hero.svg#icon-star"></use>
+                    </svg>
+                </div>
                 <div class="container-column-hero">
                     <p class="text-reviews-hero">Reviews</p>
                     <p class="amount-reviews-hero">+1500</p>
@@ -73,19 +72,23 @@
 
         <div class="container-happystudents-hero">
 
-            <a class="link-happystudents-hero" href="#reviews">Our happy students</a>
+            <a class="link-happystudents-hero" href="#reviews">Our happy<br>students</a>
 
-            <svg width="" height="" class="arrow-happestudents-hero">
-                <use href=""></use>
+            <svg width="18" height="8.66" class="arrow-happestudents-hero">
+                <use href="../img/hero/hero.svg#icon-Arrow-2-Stroke"></use>
 
             </svg>
 
         </div>
 
         <picture>
-            <source srcset="./images/mark-guerrero.jpg 1x, ./images/1-man-desc-2-min.jpeg 2x"
+            <source srcset="../img/hero/red-boy-1x-desc.png 1x, ../img/hero/red-boy-2x-desc.png 2x"
+                media="(min-width:1238px)" />
+            <source srcset="../img/hero/red-boy-1x-tub.png 1x, ../img/hero/red-boy-2x-tub.png 2x"
+                media="(min-width:700px)" />
+            <source srcset="../img/hero/red-boy-1x-mob.png 1x, ../img/hero/red-boy-2x-mob.png 2x"
                 media="(min-width:320px)" />
-            <img src="./images/mark-guerrero.jpg" alt="Man with camera" width="259" />
+            <img class="red-boy" src="../img/hero/red-boy-1x-tub.png" alt="Man with camera" width="397" />
         </picture>
 
     </div>
