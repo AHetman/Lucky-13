@@ -6,8 +6,10 @@
 
 .advertisement {
     overflow: hidden;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    font-family: "DM Sans", sans-serif;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: #BEA69E;
 }
 
 .container-advertisement {
@@ -17,15 +19,11 @@
 .adv-text {
     display: flex;
     justify-content: center;
-    color: #BEA69E;
     font-size: 28px;
-    line-height: 1.14;
     letter-spacing: -0.02em;
-    text-transform: uppercase;
     flex-shrink: 0;
     margin: 0;
-    padding-right: 15px;
-    padding-left: 15px;
+    padding: 20px 15px;
     min-width: 100%;
     white-space: nowrap;
     animation-name: marqueeLine;
@@ -50,27 +48,22 @@
 
 @media screen and (min-width: 768px) {
     .advertisement {
-        padding-top: 24px;
-        padding-bottom: 24px;
+        line-height: 1.25;
     }
 
     .adv-text {
+        padding: 24px 15px;
         font-size: 40px;
-        line-height: 1.25;
     }
 }
 
 @media screen and (min-width: 1280px) {
     .advertisement {
-        padding-top: 24px;
-        padding-bottom: 24px;
-    }
-
-    .container-advertisement {
+        line-height: 1.09;
     }
 
     .adv-text {
+        padding: 24px 15px;
         font-size: 59px;
-        line-height: 1.09;
     }
 }
