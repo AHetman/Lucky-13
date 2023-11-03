@@ -1,3 +1,46 @@
 .footer {
-  background-color: aqua;
+  background-color: #121212;
+}
+.container-footer {
+  max-width: 375px;
+  padding: 40px 20px 20px;
+  margin: 0 auto;
+}
+.logo {
+  margin-bottom: 16px;
+}
+.contacts-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-lists {
+  display: flex;
+  gap: 40px;
+}
+.socials-item:not(:last-child) {
+  margin-bottom: 14px;
+}
+.contacts-list {
+  margin-bottom: 40px;
+}
+.anchor-item:not(:last-child) {
+  margin-bottom: 14px;
+}
+.email-field {
+  width: 267px;
+  height: 60px;
+
+  border: none;
+  border-radius: 12px;
+  background: #fff;
+
+  padding: 0 0 0 18px;
+}
+.button-footer {
+  width: 60px;
+  height: 60px;
+  padding: 0;
+
+  border: none;
+  border-radius: 12px;
+  background: #1d1d1d;
 }
