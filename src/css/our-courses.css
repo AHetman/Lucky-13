@@ -1,15 +1,17 @@
 ol {
   list-style-type: none;
   padding: 0;
+  margin: 0;
 }
 .our-courses-section {
 }
 .container {
   max-width: 335px;
 }
+.our-courses-section-top {
+  margin-bottom: 40px;
+}
 .section-title {
-  color: #fff;
-  font-family: DM Sans;
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
@@ -18,23 +20,19 @@ ol {
 }
 .section-title-part {
   color: #bea69e;
-  font-family: DM Sans;
   font-size: 28px;
   font-weight: 500;
-  line-height: 32px;
+  line-height: 1.14;
   letter-spacing: -1.12px;
 }
 .our-courses-section-text {
-  color: #fff;
-  font-family: DM Sans;
   font-size: 14px;
   line-height: 1.28;
   letter-spacing: -0.28px;
-  padding-bottom: 40px;
 }
 .our-courses-section-items-wrap {
 }
-.our-courses-section-items {
+.our-courses-section-items:not(last) {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -59,6 +57,9 @@ ol {
   letter-spacing: -0.28px;
 }
 .our-courses-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 32px;
   height: 32px;
   flex-shrink: 0;
@@ -69,8 +70,6 @@ ol {
   fill: #777777;
 }
 .our-courses-section-item-title {
-  color: #fff;
-  font-family: DM Sans;
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
@@ -78,8 +77,47 @@ ol {
 }
 .our-courses-section-item-text {
   color: rgba(255, 255, 255, 0.5);
-  font-family: DM Sans;
   font-size: 14px;
   line-height: 1.29;
   letter-spacing: -0.28px;
 }
+
+/* @media (min-width: 768px) {
+  .container {
+    max-width: 704px;
+  }
+  .our-courses-section-top {
+    display: flex;
+    justify-content: space-between;
+    gap: 58px;
+    margin-bottom: 50px;
+  }
+  .section-title {
+    font-size: 48px;
+    line-height: 1.12;
+    letter-spacing: -1.12px;
+    margin-bottom: 20px;
+  }
+  .section-title-part {
+    color: #bea69e;
+    font-size: 48px;
+    line-height: 1.12;
+    letter-spacing: -1.12px;
+  }
+  .our-courses-section-text {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: -0.32px;
+  }
+  .our-courses-section-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .our-cources-section-item {
+  }
+}
+@media (min-width: 1280px) {
+}
+@media (min-width: 1440px) {
+} */
