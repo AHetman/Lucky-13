@@ -143,14 +143,16 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 259px;
+  height: 314px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 700px) {
   .container-hero {
     padding-top: 64px;
     padding-left: 32px;
     padding-right: 155px;
-    width: 704px;
+    max-width: 704px;
     height: 900px;
   }
 
@@ -161,9 +163,110 @@
     font-weight: 500;
     line-height: 1.1;
     letter-spacing: -0.04em;
-    width: 295px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 517px;
+    margin-left: 32px;
     margin-bottom: 20px;
   }
+
+ .text-hero {
+   width: 418px;
+   margin-left: 32px;
+   margin-bottom: 40px;
+ }
+
+ .container-circles-hero {
+  position: relative;
+ }
+
+ .item-circles-hero {
+   width: 54px;
+   height: 54px;
+ }
+
+ .first-girl {
+   position: relative;
+   z-index: 3;
+ }
+
+ .boy {
+   position: relative;
+   left: -22px;
+   z-index: 2;
+ }
+
+ .second-girl {
+   position: relative;
+   left: -44px;
+   z-index: 1;
+ }
+
+ .text-reviews-hero {
+ font-size: 16px;
+ line-height: 1.25;
+ letter-spacing: -0.04em;
+ }
+
+.container-happystudents-hero {
+  flex-direction: column;
+  column-gap: 8px;
+  position: relative;
+  top: -50px;
+  right: -120px;
 }
+
+.link-happystudents-hero {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.04em;
+}
+
+.arrow-happestudents-hero {
+  align-self: start;
+}
+
+ .red-boy {
+   margin-top: 46px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 393px;
+   height: 434px;
+ }
+
+}
+
+@media screen and (min-width: 1238px) {
+
+.container-hero {
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 100px;
+    max-width: 1240px;
+    height: 600px;
+  }
+
+.title-hero {
+  font-size: 64px;
+  line-height: 1.06;
+  letter-spacing: -0.04em;
+  width: 563px;
+  margin-left: 50px;
+}
+
+ .text-hero {
+   margin-bottom: 136px;
+ }
+
+ .red-boy {
+   margin-top: 46px;
+   position: relative;
+   top: -500px;
+   right: -500px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 397px;
+   height: 520px;
+ }
+}
+
+
