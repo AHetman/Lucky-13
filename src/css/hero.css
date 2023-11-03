@@ -1,8 +1,14 @@
+.container-my {
+      margin: 0 auto;
+      padding: 0 20px;
+      max-width: 100%;
+}
+
 .container-hero {
   padding: 40px 20px;
   border-radius: 30px;
   background: #1d1d1d;
-  width: 335px;
+  /* width: 335px; */
   height: 777px;
 }
 
@@ -57,17 +63,23 @@
 }
 
 .first-girl {
+  width: 44px;
+    height: 44px;
   position: relative;
   z-index: 3;
 }
 
 .boy {
+  width: 44px;
+    height: 44px;
   position: relative;
   left: -12px;
   z-index: 2;
 }
 
 .second-girl {
+  width: 44px;
+    height: 44px;
   position: relative;
   left: -24px;
   z-index: 1;
@@ -148,6 +160,11 @@
 }
 
 @media screen and (min-width: 700px) {
+
+.container-my {
+    padding: 0 32px;
+  }
+
   .container-hero {
     padding-top: 64px;
     padding-left: 32px;
@@ -158,14 +175,20 @@
 
   .title-hero {
     color: #fff;
-    font-size: 40px;
+    font-size: 60px;
     font-family: DM Sans;
     font-weight: 500;
-    line-height: 1.1;
-    letter-spacing: -0.04em;
+    line-height: 1.07;
+    letter-spacing: -0.04px;
     width: 517px;
     margin-left: 32px;
     margin-bottom: 20px;
+  }
+
+  .span-title-hero {
+    font-size: 60px;
+    line-height: 1.07;
+    letter-spacing: -0.04px;
   }
 
  .text-hero {
@@ -175,7 +198,9 @@
  }
 
  .container-circles-hero {
+  margin-left: 32px;
   position: relative;
+  gap: 134px;
  }
 
  .item-circles-hero {
@@ -184,34 +209,54 @@
  }
 
  .first-girl {
+  width: 54px;
+  height: 54px;
    position: relative;
    z-index: 3;
  }
 
  .boy {
+  width: 54px;
+  height: 54px;
    position: relative;
-   left: -22px;
+   left: -12px;
    z-index: 2;
  }
 
  .second-girl {
+  width: 54px;
+  height: 54px;
    position: relative;
-   left: -44px;
+   left: -24px;
    z-index: 1;
+ }
+
+ .container-for-star-reviews-hero {
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   background-color: #bea69e;
+   padding: 15px; 
+ }
+
+ .star-reviews-hero {
+   fill: transparent;
+   stroke: black;
  }
 
  .text-reviews-hero {
  font-size: 16px;
  line-height: 1.25;
  letter-spacing: -0.04em;
+ margin-bottom: 8px;
  }
 
 .container-happystudents-hero {
   flex-direction: column;
   column-gap: 8px;
   position: relative;
-  top: -50px;
-  right: -120px;
+  top: -58px;
+  right: -180px;
 }
 
 .link-happystudents-hero {
@@ -225,10 +270,10 @@
 }
 
  .red-boy {
-   margin-top: 46px;
+  margin-top: -10px;
    display: block;
-   margin-left: auto;
-   margin-right: auto;
+   margin-left: 156px;
+   margin-right: 155px;
    width: 393px;
    height: 434px;
  }
@@ -236,6 +281,10 @@
 }
 
 @media screen and (min-width: 1238px) {
+
+.container-my {
+    padding: 0 100px;
+  }
 
 .container-hero {
     padding-top: 80px;
@@ -249,23 +298,38 @@
   font-size: 64px;
   line-height: 1.06;
   letter-spacing: -0.04em;
-  width: 563px;
-  margin-left: 50px;
+  width: 530px;
+  height: 204px;
+  margin-left: 5px;
 }
 
  .text-hero {
    margin-bottom: 136px;
+   margin-left: 5px;
  }
+
+.container-circles-hero {
+  margin-left: 5px;
+  gap: 102px;
+}
 
  .red-boy {
    margin-top: 46px;
    position: relative;
-   top: -500px;
-   right: -500px;
+   top: -571px;
+   right: -300px;
    margin-left: auto;
    margin-right: auto;
    width: 397px;
    height: 520px;
+ }
+
+ .container-happystudents-hero {
+   flex-direction: column;
+   column-gap: 8px;
+   position: relative;
+   top: -58px;
+   right: -150px;
  }
 }
 
