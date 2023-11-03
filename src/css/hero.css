@@ -1,10 +1,15 @@
 .container-hero {
   padding: 40px 20px;
+  border-radius: 30px;
+  background: #1d1d1d;
+  width: 335px;
+  height: 777px;
 }
 
 .title-hero {
   color: #fff;
   font-size: 40px;
+  font-family: DM Sans;
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -0.04em;
@@ -16,7 +21,12 @@
 
 .span-title-hero {
   color: #bea69e;
+  font-family: DM Sans;
+  font-size: 40px;
   font-style: italic;
+  font-weight: 400;
+  line-height: 1.1;
+  letter-spacing: -0.04em;
 }
 
 .text-hero {
@@ -28,10 +38,13 @@
   width: 295px;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
 }
 
 .container-circles-hero {
   display: flex;
+  gap: 41px;
+  margin-bottom: 4px;
 }
 
 .list-circles-hero {
@@ -39,41 +52,118 @@
 }
 
 .item-circles-hero {
+  width: 44px;
+  height: 44px;
 }
 
 .first-girl {
+  position: relative;
+  z-index: 3;
 }
 
 .boy {
+  position: relative;
+  left: -12px;
+  z-index: 2;
 }
 
 .second-girl {
+  position: relative;
+  left: -24px;
+  z-index: 1;
 }
 
 .container-reviews-hero {
   display: flex;
+  gap: 10px;
+}
+
+.container-for-star-reviews-hero {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #bea69e;
+  padding: 12px;
 }
 
 .star-reviews-hero {
+  fill: transparent;
+  stroke: black;
 }
 
 .container-column-hero {
   display: flex;
   flex-direction: column;
+  gap: 4px;
 }
 
 .text-reviews-hero {
+  height: 18px;
+  width: 57px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
 }
 
 .amount-reviews-hero {
+  height: 18px;
+  width: 57px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.13;
+  letter-spacing: -0.04em;
 }
 
 .container-happystudents-hero {
   display: flex;
+  gap: 4px;
 }
 
 .link-happystudents-hero {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
 }
 
 .arrow-happestudents-hero {
+  align-self: center;
+}
+
+.red-boy {
+  margin-top: 31px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .container-hero {
+    padding-top: 64px;
+    padding-left: 32px;
+    padding-right: 155px;
+    width: 704px;
+    height: 900px;
+  }
+
+  .title-hero {
+    color: #fff;
+    font-size: 40px;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.04em;
+    width: 295px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
 }
