@@ -62,13 +62,13 @@
 
 .sign-form-btn {
     display: flex;
-        width: 335px;
-        padding: 14px 127px;
+        width: 100%;
+        padding: 14px;
         justify-content: center;
         align-items: center;
         border-radius: 12px;
         border: none;
-            background: #FFF;
+            background-color: #FFF;
             color: #121212;
                 font-family: DM Sans;
                 font-size: 16px;
@@ -121,13 +121,104 @@
 
 @media screen and (min-width: 375px) {
 
+.container {
+        max-width: 375px;
+            padding: 0 20px;
+    }
+
+.sign-form-btn {
+    max-width: 335px;
+        padding: 14px 127px;
+}
+
+.sign-form-text {
+    /* display: block;
+            max-width: 375px;
+padding: 0; */
+}
+
 }
 
 @media screen and (min-width: 768px) {
 
+.container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+
+.sign {
+        margin: 100px 0;
+    }
+
+.sign-title {
+    font-size: 48px;
+    line-height: 1.13;
+}
+
+.sign-text {
+    font-size: 16px;
+    line-height: 1.25;
+    margin-right: 224px;
+}
+
+.sign-form-input {
+    width: 480px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    padding: 20px 18px;
+    font-size: 16px;
+    line-height: 1.25;
+    margin-bottom: 14px;
+}
+
+.sign-form-message {
+    height: 120px;
+    resize: none;
+    margin-bottom: 40px;
+    outline: transparent;
+}
+
+.sign-form-btn {
+    min-width: 480px;
+    padding: 16px 216px;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.56;
+}
+
+.sign-form-text {
+    font-size: 14px;
+    line-height: 1.29;
+        margin-right: 224px;
+}
+
 }
 
 @media screen and (min-width: 1280px) {
+
+.container {
+        max-width: 1280px;
+        padding: 0 100px;
+    }
+
+.sign {
+    margin: 150px 0;
+}
+
+.sign-text {
+    /* margin-right: 224px; */
+}
+
+.sign-form-input {
+display: block;
+}
+
+.sign-form {
+
+}
 
 }
 
