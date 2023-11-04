@@ -17,7 +17,7 @@
   
 
   <script type="module" crossorigin src="/Lucky-13/commonHelpers.js"></script>
-  <link rel="stylesheet" href="/Lucky-13/assets/index-eace943f.css">
+  <link rel="stylesheet" href="/Lucky-13/assets/index-10583b35.css">
 </head>
 
 <body>
@@ -279,9 +279,72 @@
     </div>
 </div>
     <!-- Володимир -->
-    <p class="sign">
-    "about-us"
-</p>
+    <section class="sign" id="Sign-up">
+  <div class="container">
+    <h2 class="sign-title">Sign <span class="sign-title-brown">Up</span></h2>
+    <p class="sign-text">
+      Please use the form below to contact us. Enter your name, email, and
+      message and we'll get back to you shortly.
+    </p>
+    <form class="sign-form">
+      <label class="sign-form-label">
+        <input
+          type="text"
+          pattern="[A-Za-z-]{1,30}"
+          class="sign-form-input"
+          name="user-name"
+          placeholder="Enter your name"
+        />
+      </label>
+      <label class="sign-form-label">
+        <input
+          type="email"
+          pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$"
+          class="sign-form-input"
+          name="email"
+          placeholder="Enter your email"
+        />
+      </label>
+      <label class="sign-form-label">
+        <textarea
+          name="user-message"
+          class="sign-form-input sign-form-message"
+          placeholder="Message"
+        ></textarea>
+      </label>
+      <button type="submit" class="sign-form-btn">Send</button>
+      <p class="sign-form-text">
+        By clicking on “Send” button, you agree to our
+        <a class="sign-form-privacy-link" href="">Privacy Policy</a>, and allow
+        Promodo to use this information for marketing purposes.
+      </p>
+    </form>
+    <div class="sign-img-wrapper-cameraoptics">
+      <img
+        srcset="
+          ../img/sign-up/camera-optics.png    1x,
+          ../img/sign-up/camera-optics@2x.png 2x
+        "
+        src="../img/sign-up/camera-optics.png"
+        alt="camera optics"
+        class="sign-img"
+        width="150"
+        height="142"
+      />
+    </div>
+    <div class="sign-img-wrapper-camera">
+      <img
+        srcset="../img/sign-up/camera.png 1x, ../img/sign-up/camera@2x.png 2x"
+        src="../img/sign-up/camera.png"
+        alt="camera"
+        class="sign-img"
+        width="240"
+        height="296"
+      />
+    </div>
+  </div>
+</section>
+
     <!-- Євгеній -->
     <!-- Reviews -->
 <section id="reviews">
