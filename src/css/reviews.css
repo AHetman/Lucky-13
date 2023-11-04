@@ -1,15 +1,5 @@
 /* Reviews */
 
-.container {
-    width: 100%;
-    margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #414141;
-    max-width: 375px;
-    height: 396px;
-}
-
 
 .title {
     color: #FFF;
@@ -32,7 +22,19 @@
 .foto {
     margin-left: 20px;
     margin-right: 10px;
+}
 
+.foto-box {
+    display: inline-block;
+}
+
+.text-box {
+    display: inline-block;
+}
+
+
+.star-gold {
+    fill: aqua;
 }
 
 .name-student {
@@ -46,6 +48,9 @@
 
 .reviews-inner-left {
     margin-top: 26px;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
 .reviews-inner-right {
@@ -59,10 +64,15 @@
     letter-spacing: 0.02em;
 }
 
-.stars {}
+.stars {
+    display: inline-block;
+    margin-left: 86px;
+    margin-top: -14px;
+}
 
 .star-line {
     margin-top: 10px;
+    display: inline-flex
 }
 
 .text-review {
@@ -72,8 +82,8 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     display: block;
-    margin-top: 50px;
+    margin-top: 20px;
     padding-left: 20px;
-    padding-right: 20px;
+
     padding-bottom: 20px;
 }
