@@ -73,7 +73,7 @@ display: flex;
 gap: 14px;
 justify-content: end;
   }
-  .header-wrap {
+  .header-wr {
     height: 60px;
     width: 100%;
   }
@@ -84,7 +84,7 @@ justify-content: end;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 168px;
+  width: 186px;
   height: 60px;
   border-radius: 12px;
   background-color: #ffff;
@@ -97,12 +97,16 @@ justify-content: end;
 .header-sign-up-link:hover,
 .header-sign-up-link:focus {
   background-color: #1d1d1d;
-  color: #bea69e;
+;
 } 
 } 
 @media (min-width: 1280px) {
 .header {
   padding-bottom: 80px;
+}
+.header-logo {
+  width: 127px;
+  height: 20px;
 }
 .header-wr {
   padding: 22px 50px;
@@ -121,7 +125,7 @@ justify-content: end;
   display: block;
 }
 .header-menu-list {
-  display: flex;
+  display: inline-flex;
   gap: 28px;
 }
 .header-menu-link {
