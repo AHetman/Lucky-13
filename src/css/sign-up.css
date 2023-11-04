@@ -1,1 +1,136 @@
+.sign {
+    margin: 80px 0;
+}
 
+.sign-title {
+    color: #FFF;
+        font-family: DM Sans;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: -0.04em;
+        margin-bottom: 20px;
+}
+
+.sign-title-brown {
+    color: #BEA69E;
+}
+
+.sign-text {
+    color: #FFF;
+        font-family: DM Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        margin-right: 40px;
+        margin-bottom: 40px;
+}
+
+.sign-form {}
+
+.sign-form-label {}
+
+.sign-form-input {
+    width: 100%;
+    height: 46px;
+    background-color: transparent;
+    border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+        padding: 14px 18px;
+        color: #FFF;
+            font-family: DM Sans;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 1.29;
+        margin-bottom: 8px;
+}
+
+.sign-form-input::placeholder {
+            opacity: 0.7;
+}
+
+.sign-form-message {
+        height: 112px;
+        resize: none;
+        margin-bottom: 40px;
+        outline: transparent;
+}
+
+.sign-form-btn {
+    display: flex;
+        width: 335px;
+        padding: 14px 127px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        border: none;
+            background: #FFF;
+            color: #121212;
+                font-family: DM Sans;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 1.25;
+                text-transform: uppercase;
+                margin-bottom: 20px;
+}
+
+.sign-form-text {
+    color: rgba(255, 255, 255, 0.50);
+        font-family: DM Sans;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.33;
+}
+
+.sign-form-privacy-link {
+    text-decoration-line: underline;
+}
+
+.sign-img-wrapper-cameraoptics {
+    width: 190px;
+        height: 288px;
+        background-color: #BEA69E;
+        border-radius: 1000px;
+        display: flex;
+            align-items: center;
+            justify-content: center;
+                display: none;
+}
+
+.sign-img-wrapper-camera {
+    width: 350px;
+        height: 540px;
+        border-radius: 1000px;
+            background: #1D1D1D;
+                    display: flex;
+            align-items: center;
+                justify-content: center;
+/* padding: 139 48 88 48; */
+    display: none;
+}
+
+.sign-img {
+
+}
+
+@media screen and (min-width: 375px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
+}
+
+@media screen and (min-width: 1440px) {
+
+}
