@@ -139,6 +139,7 @@ h6 {
   .about-us-wrap {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
   }
 
   .about-us-img {
