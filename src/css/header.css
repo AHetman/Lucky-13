@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: space-between;
   height: 50px;
+  background-color: #121212;
 }
 .header-logo {
   width: 127px;
@@ -16,6 +17,10 @@
   fill: #ffff;
   flex-shrink: 0;
 }
+.header-menu {
+display: none;
+}
+
 .header-content-wrap {
 display: flex;
 gap: 14px
@@ -60,6 +65,9 @@ gap: 14px
 /******TABLET******/
 
 @media (min-width: 768px) {
+  .header {
+    padding-bottom: 40px;
+  }
   .header-container {
 display: flex;
 gap: 14px;
@@ -83,7 +91,7 @@ justify-content: end;
   color: #121212;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 1.55;
   text-transform: uppercase;
 }
 .header-sign-up-link:hover,
@@ -92,3 +100,42 @@ justify-content: end;
   color: #bea69e;
 } 
 } 
+@media (min-width: 1280px) {
+.header {
+  padding-bottom: 80px;
+}
+.header-wr {
+  padding: 22px 50px;
+  justify-content: space-between;
+}
+.header-content-wrap {
+  display: none;
+  }
+  .header-sign-up-link {
+    width: 238px;
+  }
+.header-button {
+  display: none;
+}
+.header-menu {
+  display: block;
+}
+.header-menu-list {
+  display: flex;
+  gap: 28px;
+}
+.header-menu-link {
+  text-transform: uppercase;
+  line-height: normal;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 400;
+}
+.header-menu-link:focus,
+.header-menu-link:hover {
+  color: #bea69e;
+}
+.header-container {
+  padding: 0px;
+}
+}
