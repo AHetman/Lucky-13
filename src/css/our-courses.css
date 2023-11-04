@@ -1,10 +1,6 @@
 ol {
   list-style-type: none;
 }
-/* .our-courses-section {
-} */
-/* .container-our-courses {
-} */
 .our-courses-section-top {
   margin-bottom: 40px;
 }
@@ -102,8 +98,8 @@ ol {
   .section-title-part {
     color: #bea69e;
     font-size: 48px;
-    line-height: 1.12;
-    letter-spacing: -1.12px;
+    line-height: 1.25;
+    letter-spacing: -0.32px;
   }
   .our-courses-section-item {
     width: 342px;
@@ -118,8 +114,6 @@ ol {
     font-size: 28px;
     width: 265px;
   }
-  /* .our-courses-section-item {
-  } */
 }
 @media screen and (min-width: 1280px) {
   .our-courses-section-top {
