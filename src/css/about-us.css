@@ -1,0 +1,164 @@
+/* container {
+  width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+} */
+
+.about-us {
+  background: #121212;
+  padding: 80px 0;
+}
+
+.about-us-title {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+}
+
+.about-us-title span {
+  color: #bea69e;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+}
+
+.about-us-text p {
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.28;
+  letter-spacing: -0.02em;
+}
+
+.about-us-img {
+  padding: 40px 0;
+}
+
+.about-us-text p:first-child {
+  margin-bottom: 20px;
+}
+
+/* .about-us-text p:last-child {
+  padding-bottom: 80px;
+} */
+
+/* @media screen and (min-width: 375px) {
+  .container {
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+  }
+} */
+
+@media screen and (min-width: 768px) {
+  /* .container {
+    max-width: 768px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin: 0 auto;
+  } */
+
+  .about-us-title {
+    font-size: 48px;
+    line-height: 1.12;
+  }
+
+  .about-us-title span {
+    font-size: 48px;
+    line-height: 1.12;
+  }
+
+  .about-us-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .about-us-text {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .about-us-text p {
+    max-width: 280px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+
+  .about-us-img {
+    padding: 50px 0;
+    width: 100%;
+  }
+  .about-us-text p:first-child {
+    margin-right: 40px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  /* .container {
+    max-width: 1280px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 0 auto;
+  } */
+
+  .about-us {
+    padding: 150px 0;
+  }
+
+  .about-us-wrap {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-us-img {
+    padding: 0 40px 0 0;
+  }
+
+  .about-us-title {
+    padding-bottom: 50px;
+  }
+
+  .about-us-text p:first-child {
+    margin-right: 20px;
+    margin-bottom: 0;
+  }
+
+  .about-us-text p {
+    max-width: 268px;
+    max-height: 260px;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+  }
+}
