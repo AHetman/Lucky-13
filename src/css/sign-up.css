@@ -244,8 +244,7 @@
     position: absolute;
     top: 80px;
     right: 30px;
-    
-    scale: 110%;
+        scale: 110%;
     /* transform: rotate(-90deg);
   box-shadow: -35.56212px 17.78106px 25.43959px 0px rgba(0, 0, 0, 0.26); */
   }
@@ -267,7 +266,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+/* @media screen and (min-width: 1440px) {
   .sign-wrapper {
     margin-right: 200px;
   }
@@ -279,4 +278,4 @@
   .sign-img-wrapper-camera {
     padding: 139px 48px 88px 48px;
   }
-}
+} */
