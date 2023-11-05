@@ -100,6 +100,7 @@
 
     .reviews-block {
         max-width: 640px;
+        margin: 0 auto;
     }
 
     .foto {
@@ -123,6 +124,11 @@
         text-align: justify;
         width: 600px;
         margin-top: 0;
+    }
+
+    .title {
+        margin-bottom: 50px;
+        font-size: 48px;
     }
 
 }
@@ -195,5 +201,9 @@
 
     .foto-box {
         margin-top: 20px;
+    }
+
+    .title {
+        margin-bottom: 50px
     }
 }
