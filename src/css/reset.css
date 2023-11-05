@@ -45,6 +45,13 @@ img {
   padding-right: 20px;
 }
 
+/* .our-background {
+  background-image: url(/src/img/Graphic.png);
+  background-position: center;
+  background-size: 75%;
+  background-repeat: round;
+} */
+
 @media screen and (min-width: 375px) {
   .container {
     max-width: 375px;
