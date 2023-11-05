@@ -154,7 +154,6 @@
     .reviews-block {
         max-width: 1080px;
         border: none;
-
         position: relative;
 
     }
@@ -166,7 +165,6 @@
     .stars {
         margin: 0;
         display: inline-block;
-
         right: 20px;
         position: absolute;
         top: 10px;
@@ -187,11 +185,9 @@
 
     .text-review {
         width: 100%;
-
         color: #FFF;
         font-family: DM Sans;
         font-size: 16px;
-
         line-height: 1.25em;
         letter-spacing: 0.02em;
         text-align: justify;
