@@ -1,220 +1,245 @@
 .sign {
-    margin: 80px 0;
+  margin: 80px 0;
 }
 
 .sign-title {
-    color: #FFF;
-        font-family: DM Sans;
-        font-size: 28px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 1.14;
-        letter-spacing: -0.04em;
-        margin-bottom: 20px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: -0.04em;
+  margin-bottom: 20px;
 }
 
 .sign-title-brown {
-    color: #BEA69E;
+  color: #bea69e;
 }
 
 .sign-text {
-    color: #FFF;
-        font-family: DM Sans;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.29;
-        letter-spacing: -0.02em;
-        margin-bottom: 40px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
 }
 
-.sign-form {}
+.sign-form {
+}
 
-.sign-form-label {}
+.sign-form-label {
+}
 
 .sign-form-input {
-    width: 100%;
-    height: 46px;
-    background-color: transparent;
-    border-radius: 12px;
-        border: 1px solid rgba(255, 255, 255, 0.20);
-        padding: 14px 18px;
-        color: #FFF;
-            font-family: DM Sans;
-            font-size: 14px;
-            font-style: normal;
-            font-weight: 400;
-            line-height: 1.29;
-        margin-bottom: 8px;
+  width: 100%;
+  height: 46px;
+  background-color: transparent;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 14px 18px;
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29;
+  margin-bottom: 8px;
+  outline: transparent;
+}
+
+.sign-form-input:hover,
+.sign-form-input:focus {
+border: 1px solid rgba(255, 255, 255, 0.50);
 }
 
 .sign-form-input::placeholder {
-            opacity: 0.7;
+  font-family: DM Sans;
+    font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 1.29;
+  opacity: 0.7;
 }
 
 .sign-form-message {
-        height: 112px;
-        resize: none;
-        margin-bottom: 40px;
-        outline: transparent;
+  height: 112px;
+  resize: none;
+  margin-bottom: 40px;
+  outline: transparent;
 }
 
 .sign-form-btn {
-    display: flex;
-        width: 100%;
-        padding: 14px;
-        justify-content: center;
-        align-items: center;
-        border-radius: 12px;
-        border: none;
-            background-color: #FFF;
-            color: #121212;
-                font-family: DM Sans;
-                font-size: 16px;
-                font-style: normal;
-                font-weight: 700;
-                line-height: 1.25;
-                text-transform: uppercase;
-                margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  border: none;
+  background-color: #fff;
+  color: #121212;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.25;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.sign-form-btn:hover, .sign-form-btn:focus {
+background-color: #1D1D1D;
+color: #BEA69E;
 }
 
 .sign-form-text {
-    color: rgba(255, 255, 255, 0.50);
-        font-family: DM Sans;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 1.33;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.33;
 }
 
 .sign-form-privacy-link {
-    text-decoration-line: underline;
+  text-decoration-line: underline;
 }
 
 .sign-img-wrapper-cameraoptics {
-                display: none;
+  display: none;
 }
 
 .sign-img-wrapper-camera {
-    display: none;
+  display: none;
 }
 
 .sign-img {
-
 }
 
 @media screen and (min-width: 375px) {
-
-.sign-text {
+  .sign-text {
     margin-right: 40px;
-}
+  }
 
-.sign-form-btn {
+  .sign-form-btn {
     max-width: 335px;
-        padding: 14px 127px;
-}
-
+    padding: 14px 127px;
+  }
 }
 
 @media screen and (min-width: 768px) {
+  .sign {
+    margin: 100px 0;
+  }
 
-.sign {
-        margin: 100px 0;
-    }
-
-.sign-title {
+  .sign-title {
     font-size: 48px;
     line-height: 1.13;
-}
+  }
 
-.sign-wrapper {
+  .sign-wrapper {
     width: 480px;
-}
+  }
 
-.sign-text {
+  .sign-text {
     font-size: 16px;
     line-height: 1.25;
-margin-right: 0;
-}
+    margin-right: 0;
+  }
 
-.sign-form-input {
+  .sign-form-input {
     width: 480px;
     height: 60px;
-    background-color: transparent;
-    border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.20);
     padding: 20px 18px;
     font-size: 16px;
     line-height: 1.25;
     margin-bottom: 14px;
+  }
+
+.sign-form-input::placeholder {
+    font-size: 16px;
+      line-height: 1.25;
+  opacity: 0.7;
 }
 
-.sign-form-message {
+  .sign-form-message {
     height: 120px;
     resize: none;
     margin-bottom: 40px;
     outline: transparent;
-}
+  }
 
-.sign-form-btn {
+  .sign-form-btn {
     min-width: 480px;
     padding: 16px 216px;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 1.56;
-}
+  }
 
-.sign-form-text {
+  .sign-form-text {
     font-size: 14px;
     line-height: 1.29;
-}
-
+  }
 }
 
 @media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+    padding: 0 100px;
+  }
 
-.sign-container {
+  .sign-container {
     display: flex;
     align-items: flex-end;
-}
+  }
 
-.sign {
+  .sign {
     margin: 150px 0;
-}
+  }
 
-.sign-wrapper {
-margin-right: 60px;
-}
+  .sign-wrapper {
+    margin-right: 60px;
+  }
 
-.sign-form-input {
-display: block;
-}
+  .sign-form-input {
+    display: block;
+  }
 
-.sign-img-wrapper-cameraoptics {
+  .sign-img-wrapper-cameraoptics {
     width: 190px;
     height: 288px;
-    background-color: #BEA69E;
+    background-color: #bea69e;
     border-radius: 1000px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+        display: flex;
+          align-items: center;
+          justify-content: center;
+    /* display: block;
+    background: url(https://s3-alpha-sig.figma.com/img/08e5/394c/3f7c65c0f402f1061ebb08a8b671983d?Expires=1699833600&Signature=EycWKSk4kRv9wMCrlT6KvjgR428bjcU2qh6vrhty8y9bnwuGCjVK2W-ggCKxyWrLk3cQslZ6VUObc8K4PlOvrr8tsCWTmXrtfbx~Yvhju46aYCtIwEplX8Md5bOT0K3q0Qp1awCRT-I2~b03zUTt-CWshYkfxj64UKSjrnd2yqPrk7pLwmAZ981S-CoY5d5~o92F7WF-eYpaT8mU9h0H-suibz-GTcBL5rfGQWIutvFosvhV1UPRWb8GLm4AOBlR8J7ulL9Fc8sGqoI4K13fkriNh98mlvTOxotelNRIJpONARPD2rFh2hk97qmRMxU1Dn0kshAw9gX876j1Dj-gsQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4),
+      lightgray 0px -53.797px / 100% 158.947% no-repeat;
+    box-shadow: -35.56212px 17.78106px 25.43959px 0px rgba(0, 0, 0, 0.26);
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto; */
     margin-right: 20px;
-}
+  }
 
-.sign-img-wrapper-camera {
+  .sign-img-wrapper-camera {
     width: 350px;
     height: 540px;
     border-radius: 1000px;
-    background: #1D1D1D;
+    background-color: #1d1d1d;
     display: flex;
     align-items: center;
     justify-content: center;
     /* padding: 139 48 88 48; */
-}
-
+  }
 }
 
 @media screen and (min-width: 1440px) {
-
 }
