@@ -68,6 +68,14 @@
     display: inline-flex;
 }
 
+.star-gold {
+    fill: #BEA69E;
+}
+
+.svg-tranform-reviews-black {
+    fill: #FFFFFF33;
+}
+
 .text-review {
     color: #FFF;
     font-family: DM Sans;
@@ -125,9 +133,13 @@
         display: grid;
     }
 
+    .reviews-all {
+        max-width: 1080px;
+    }
+
     .reviews-block {
         display: -webkit-inline-box;
-        max-width: 530px;
+        max-width: 562px;
         gap: 20px;
     }
 
@@ -142,21 +154,29 @@
     }
 
     .stars {
-        margin-left: 419px;
+        margin-left: 440px;
         margin-top: -71px;
     }
 
     .text-box-girl {
         display: flex;
-        margin-top: -80px;
+        margin-top: -70px;
         flex-direction: column;
         flex-wrap: wrap;
         align-content: center;
         justify-content: center;
-        margin-left: -201px;
+        margin-left: -230px;
     }
 
     .text-review {
-        width: 98%;
+        width: 100%;
+
+        color: #FFF;
+        font-family: DM Sans;
+        font-size: 16px;
+
+        line-height: 1.25em;
+        letter-spacing: 0.02em;
+        text-align: justify;
     }
 }
