@@ -1,8 +1,8 @@
-.footer {
+.footer-wrap {
   margin-top: 80px;
   margin-bottom: 20px;
   background-image: url(/img/footer/Graphicmob.png);
-  background-position: center;
+  background-position: 50% 0;
   background-size: cover;
   background-repeat: no-repeat;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
@@ -48,22 +48,30 @@
   margin-bottom: 14px;
 }
 .footer-link {
+  color: #fff;
   font-size: 14px;
   line-height: normal;
   text-transform: uppercase;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link:hover,
 .footer-link:focus {
   color: #BEA69E;
 }
+.subscribe-label-footer {
+  width: 100%;
+}
 .subscribe-form-footer {
   display: flex;
   gap: 8px;
   margin-bottom: 40px;
+  justify-content: space-between;
+  
 }
 .email-field-footer {
-  width: 212px;
+  width: 100%;
   height: 60px;
+  
 
   border: none;
   border-radius: 12px;
@@ -79,6 +87,7 @@
   width: 60px;
   height: 60px;
   padding: 0;
+  flex-shrink: 0;
 
   border: none;
   border-radius: 12px;
@@ -105,7 +114,7 @@
 }
 
 @media screen and (min-width: 768px) {
-.footer {
+.footer-wrap {
   margin-top: 100px;
   margin-bottom: 25px;
   background-image: url(/img/footer/Graphictab.png);
@@ -135,14 +144,14 @@
 }
 }
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
-  .footer {
+  .footer-wrap {
     background-image: url(/img/footer/Graphictab_@2x.png);
   }
 }
 
 
 @media screen and (min-width: 1280px) {
-.footer {
+.foote-wrap {
   margin-top: 150px;
   background-image: url(/img/footer/Graphicdesk1.png);
 }
@@ -164,26 +173,7 @@
 }
 }
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-  .footer {
+  .footer-wrap {
     background-image: url(/img/footer/Graphicdesk1_@2x.png);
-  }
-}
-
-
-@media screen and (min-width: 1440px) {
-.footer {
-  background-image: url(/img/footer/Graphicdesk2.png);
-}
-.contacts-footer {
-  margin-right: 341px;
-}
-.footer-lists {
-  gap: 100px;
-  margin-right: 193px;
-}
-}
-@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
-  .footer {
-    background-image: url(/img/footer/Graphicdesk2_@2x.png);
   }
 }
