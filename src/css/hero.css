@@ -2,6 +2,7 @@
       margin: 0 auto;
       padding: 0 20px;
       max-width: 100%;
+      padding-bottom: 80px;
 }
 
 .container-hero {
@@ -160,10 +161,11 @@
   max-height: 314px;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 768px) {
 
 .container-my {
     padding: 0 32px;
+    padding-bottom: 100px;
   }
 
   .container-hero {
@@ -288,6 +290,7 @@
 
 .container-my {
     padding: 0 100px;
+    padding-bottom: 150px;
   }
 
 .container-hero {

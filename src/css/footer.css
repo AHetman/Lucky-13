@@ -1,6 +1,20 @@
 .footer {
-  background-color: #121212;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  background-image: url(/img/footer/Graphicmob.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+} 
+@media screen and (min-resolution: 192dpi) {
+  .footer {
+    background-image: url(/img/footer/Graphicmob_@2x.png);
+  }
 }
+.container-footer {
+  display: block;
+} 
 .logo-footer {
   fill: #ffffff;
   margin-top: 40px;
@@ -38,13 +52,17 @@
   line-height: normal;
   text-transform: uppercase;
 }
+.footer-link:hover,
+.footer-link:focus {
+  color: #BEA69E;
+}
 .subscribe-form-footer {
   display: flex;
   gap: 8px;
   margin-bottom: 40px;
 }
 .email-field-footer {
-  min-width: 212px;
+  width: 212px;
   height: 60px;
 
   border: none;
@@ -74,7 +92,6 @@
 .footer-down {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 20px;
 }
 .footer-down-text {
   font-size: 12px;
@@ -82,5 +99,91 @@
 }
 
 @media screen and (min-width: 375px) {
-  
+.email-field-footer {
+  width: 267px;
+}
+}
+
+@media screen and (min-width: 768px) {
+.footer {
+  margin-top: 100px;
+  margin-bottom: 25px;
+  background-image: url(/img/footer/Graphictab.png);
+}
+.container-footer {
+  display: flex;
+  margin-top: 50px;
+  margin-bottom: 74px;
+}
+.contacts-footer {
+  margin-right: 58px;
+}
+.logo-footer {
+  margin-top: 0px;
+}
+.footer-lists {
+  gap: 25px;
+  margin-right: 61px;
+  margin-bottom: 0;
+}
+.email-field-footer {
+  width: 178px;
+}
+.footer-down-text {
+  font-size: 14px;
+  line-height: 1.28;
+}
+}
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+  .footer {
+    background-image: url(/img/footer/Graphictab_@2x.png);
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+.footer {
+  margin-top: 150px;
+  background-image: url(/img/footer/Graphicdesk1.png);
+}
+.container-footer {
+  margin-bottom: 50px;
+}
+.contacts-footer {
+  margin-right: 285px;
+}
+.footer-lists {
+  gap: 50px;
+  margin-right: 137px;
+}
+.email-field-footer {
+  width: 216px;
+}
+.subscribe-form-footer {
+  gap: 16px;
+}
+}
+@media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
+  .footer {
+    background-image: url(/img/footer/Graphicdesk1_@2x.png);
+  }
+}
+
+
+@media screen and (min-width: 1440px) {
+.footer {
+  background-image: url(/img/footer/Graphicdesk2.png);
+}
+.contacts-footer {
+  margin-right: 341px;
+}
+.footer-lists {
+  gap: 100px;
+  margin-right: 193px;
+}
+}
+@media screen and (min-width: 1440px) and (min-resolution: 192dpi) {
+  .footer {
+    background-image: url(/img/footer/Graphicdesk2_@2x.png);
+  }
 }
