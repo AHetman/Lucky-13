@@ -25,7 +25,6 @@
         font-weight: 400;
         line-height: 1.29;
         letter-spacing: -0.02em;
-        margin-right: 40px;
         margin-bottom: 40px;
 }
 
@@ -93,25 +92,10 @@
 }
 
 .sign-img-wrapper-cameraoptics {
-    width: 190px;
-        height: 288px;
-        background-color: #BEA69E;
-        border-radius: 1000px;
-        display: flex;
-            align-items: center;
-            justify-content: center;
                 display: none;
 }
 
 .sign-img-wrapper-camera {
-    width: 350px;
-        height: 540px;
-        border-radius: 1000px;
-            background: #1D1D1D;
-                    display: flex;
-            align-items: center;
-                justify-content: center;
-/* padding: 139 48 88 48; */
     display: none;
 }
 
@@ -121,30 +105,18 @@
 
 @media screen and (min-width: 375px) {
 
-.container {
-        max-width: 375px;
-            padding: 0 20px;
-    }
+.sign-text {
+    margin-right: 40px;
+}
 
 .sign-form-btn {
     max-width: 335px;
         padding: 14px 127px;
 }
 
-.sign-form-text {
-    /* display: block;
-            max-width: 375px;
-padding: 0; */
-}
-
 }
 
 @media screen and (min-width: 768px) {
-
-.container {
-        max-width: 768px;
-        padding: 0 32px;
-    }
 
 .sign {
         margin: 100px 0;
@@ -155,10 +127,14 @@ padding: 0; */
     line-height: 1.13;
 }
 
+.sign-wrapper {
+    width: 480px;
+}
+
 .sign-text {
     font-size: 16px;
     line-height: 1.25;
-    margin-right: 224px;
+margin-right: 0;
 }
 
 .sign-form-input {
@@ -192,32 +168,49 @@ padding: 0; */
 .sign-form-text {
     font-size: 14px;
     line-height: 1.29;
-        margin-right: 224px;
 }
 
 }
 
 @media screen and (min-width: 1280px) {
 
-.container {
-        max-width: 1280px;
-        padding: 0 100px;
-    }
+.sign-container {
+    display: flex;
+    align-items: flex-end;
+}
 
 .sign {
     margin: 150px 0;
 }
 
-.sign-text {
-    /* margin-right: 224px; */
+.sign-wrapper {
+margin-right: 60px;
 }
 
 .sign-form-input {
 display: block;
 }
 
-.sign-form {
+.sign-img-wrapper-cameraoptics {
+    width: 190px;
+    height: 288px;
+    background-color: #BEA69E;
+    border-radius: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
 
+.sign-img-wrapper-camera {
+    width: 350px;
+    height: 540px;
+    border-radius: 1000px;
+    background: #1D1D1D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding: 139 48 88 48; */
 }
 
 }
