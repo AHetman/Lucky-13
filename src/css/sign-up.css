@@ -53,15 +53,15 @@
 
 .sign-form-input:hover,
 .sign-form-input:focus {
-border: 1px solid rgba(255, 255, 255, 0.50);
+  border: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .sign-form-input::placeholder {
   font-family: DM Sans;
-    font-size: 14px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 1.29;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.29;
   opacity: 0.7;
 }
 
@@ -91,9 +91,10 @@ border: 1px solid rgba(255, 255, 255, 0.50);
   margin-bottom: 20px;
 }
 
-.sign-form-btn:hover, .sign-form-btn:focus {
-background-color: #1D1D1D;
-color: #BEA69E;
+.sign-form-btn:hover,
+.sign-form-btn:focus {
+  background-color: #1d1d1d;
+  color: #bea69e;
 }
 
 .sign-form-text {
@@ -160,11 +161,11 @@ color: #BEA69E;
     margin-bottom: 14px;
   }
 
-.sign-form-input::placeholder {
+  .sign-form-input::placeholder {
     font-size: 16px;
-      line-height: 1.25;
-  opacity: 0.7;
-}
+    line-height: 1.25;
+    opacity: 0.7;
+  }
 
   .sign-form-message {
     height: 120px;
@@ -189,7 +190,6 @@ color: #BEA69E;
 }
 
 @media screen and (min-width: 1280px) {
-
   .sign-container {
     display: flex;
     align-items: flex-end;
@@ -208,46 +208,47 @@ color: #BEA69E;
     display: block;
   }
 
-.sign-img-wrapper {
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 38px;
-}
+  .sign-img-wrapper {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 38px;
+  }
 
   .sign-img-wrapper-cameraoptics {
     width: 180px;
     height: 288px;
     background-color: #bea69e;
     border-radius: 1000px;
-        /* display: flex;
+    /* display: flex;
           align-items: center;
           justify-content: center; */
     display: block;
     /* background-image: lightgray url(https://s3-alpha-sig.figma.com/img/08e5/394c/3f7c65c0f402f1061ebb08a8b671983d?Expires=1699833600&Signature=EycWKSk4kRv9wMCrlT6KvjgR428bjcU2qh6vrhty8y9bnwuGCjVK2W-ggCKxyWrLk3cQslZ6VUObc8K4PlOvrr8tsCWTmXrtfbx~Yvhju46aYCtIwEplX8Md5bOT0K3q0Qp1awCRT-I2~b03zUTt-CWshYkfxj64UKSjrnd2yqPrk7pLwmAZ981S-CoY5d5~o92F7WF-eYpaT8mU9h0H-suibz-GTcBL5rfGQWIutvFosvhV1UPRWb8GLm4AOBlR8J7ulL9Fc8sGqoI4K13fkriNh98mlvTOxotelNRIJpONARPD2rFh2hk97qmRMxU1Dn0kshAw9gX876j1Dj-gsQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4) -190.492px 0px / 231.558% 100% no-repeat; */
     /* background: url(https://s3-alpha-sig.figma.com/img/08e5/394c/3f7c65c0f402f1061ebb08a8b671983d?Expires=1699833600&Signature=EycWKSk4kRv9wMCrlT6KvjgR428bjcU2qh6vrhty8y9bnwuGCjVK2W-ggCKxyWrLk3cQslZ6VUObc8K4PlOvrr8tsCWTmXrtfbx~Yvhju46aYCtIwEplX8Md5bOT0K3q0Qp1awCRT-I2~b03zUTt-CWshYkfxj64UKSjrnd2yqPrk7pLwmAZ981S-CoY5d5~o92F7WF-eYpaT8mU9h0H-suibz-GTcBL5rfGQWIutvFosvhV1UPRWb8GLm4AOBlR8J7ulL9Fc8sGqoI4K13fkriNh98mlvTOxotelNRIJpONARPD2rFh2hk97qmRMxU1Dn0kshAw9gX876j1Dj-gsQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4),
       lightgray 0px -53.797px / 100% 158.947% no-repeat; */
-      /* background-color: #bea69e; */
-  
+    /* background-color: #bea69e; */
+
     /* background-position: center;
         background-size: cover;
         margin: 0 auto; */
-                /* padding: 76px 19px 62px 19px; */
+    /* padding: 76px 19px 62px 19px; */
     margin-right: 20px;
-        /* position: absolute;
+    /* position: absolute;
         right: 360px;
           bottom: 38px;
           transform: translateX(-50%); */
-          position: relative;
+    position: relative;
   }
 
-.sign-img-cameraoptics {
-  position: absolute;
-  top: 80px;
-  right: 30px;
-  scale: 110%;
-  /* transform: rotate(-90deg);
+  .sign-img-cameraoptics {
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    
+    scale: 110%;
+    /* transform: rotate(-90deg);
   box-shadow: -35.56212px 17.78106px 25.43959px 0px rgba(0, 0, 0, 0.26); */
-}
+  }
 
   .sign-img-wrapper-camera {
     width: 350px;
@@ -262,22 +263,20 @@ color: #BEA69E;
     right: 0;
     bottom: 38px;
     transform: translateX(-50%); */
-          padding: 156px 50px 88px 50px;
+    padding: 156px 50px 88px 50px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-
   .sign-wrapper {
-      margin-right: 200px;
-    }
+    margin-right: 200px;
+  }
 
-    .sign-img-wrapper-cameraoptics {
-      width: 190px;
-    }
+  .sign-img-wrapper-cameraoptics {
+    width: 190px;
+  }
 
-.sign-img-wrapper-camera {
-padding: 139px 48px 88px 48px;
-}
-
+  .sign-img-wrapper-camera {
+    padding: 139px 48px 88px 48px;
+  }
 }
