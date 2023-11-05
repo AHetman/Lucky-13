@@ -1,16 +1,5 @@
 /* Reviews */
 
-.container {
-    width: 100%;
-    margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #414141;
-    max-width: 375px;
-    height: 396px;
-}
-
-
 .title {
     color: #FFF;
     font-family: DM Sans;
@@ -24,7 +13,7 @@
 }
 
 .reviews-block {
-    width: 335px;
+    max-width: 335px;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
 }
@@ -32,7 +21,14 @@
 .foto {
     margin-left: 20px;
     margin-right: 10px;
+}
 
+.foto-box {
+    display: inline-block;
+}
+
+.text-box {
+    display: inline-block;
 }
 
 .name-student {
@@ -41,11 +37,13 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    margin-bottom: 4px
+    margin-bottom: 4px;
 }
 
 .reviews-inner-left {
     margin-top: 26px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .reviews-inner-right {
@@ -59,10 +57,15 @@
     letter-spacing: 0.02em;
 }
 
-.stars {}
+.stars {
+    display: inline-block;
+    margin-left: 86px;
+    margin-top: -14px;
+}
 
 .star-line {
     margin-top: 10px;
+    display: inline-flex;
 }
 
 .text-review {
@@ -72,8 +75,88 @@
     line-height: 1.2;
     letter-spacing: 0.02em;
     display: block;
-    margin-top: 50px;
+    margin-top: 20px;
     padding-left: 20px;
-    padding-right: 20px;
     padding-bottom: 20px;
+}
+
+/* Медиа запросы */
+
+@media screen and (min-width: 768px) {
+
+    .reviews-all {
+        max-width: 704px;
+    }
+
+    .reviews-block {
+        max-width: 640px;
+    }
+
+    .foto {
+        display: inline-block;
+    }
+
+    .stars {
+        margin-left: 309px;
+    }
+
+    .star-gold {
+        text-align: right;
+    }
+
+    .star-line {
+        display: flex;
+    }
+
+    .text-review {
+        padding: 20px 20px;
+        text-align: justify;
+        width: 600px;
+        margin-top: 0;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    .reviews-inner-right {
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+        display: grid;
+    }
+
+    .reviews-block {
+        display: -webkit-inline-box;
+        max-width: 530px;
+        gap: 20px;
+    }
+
+
+    .reviews-inner-left {
+        margin-top: 20px;
+
+    }
+
+    .girl-box {
+        margin-top: 20px;
+    }
+
+    .stars {
+        margin-left: 419px;
+        margin-top: -71px;
+    }
+
+    .text-box-girl {
+        display: flex;
+        margin-top: -80px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        margin-left: -201px;
+    }
+
+    .text-review {
+        width: 98%;
+    }
 }
