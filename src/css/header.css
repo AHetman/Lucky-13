@@ -146,9 +146,10 @@ justify-content: end;
 } 
 /******MODAL******/
 
-.modal-window {
+.modal-button {
   width: 61%;
   max-width: 480px;
+  
 }
 .navigation-band {
   gap: 28px;
@@ -157,11 +158,6 @@ justify-content: end;
 .modal-photo {
   width: 100%;
 }
-
-
-
-
-
 
 } 
 
