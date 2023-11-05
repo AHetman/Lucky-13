@@ -65,6 +65,13 @@
 .our-courses-arrow-icon {
   fill: #777777;
 }
+.our-courses-item-link:hover,
+.our-courses-item-link:active {
+  background-color: #bea69e;
+}
+.our-courses-item-link:hover .our-courses-arrow-icon {
+  fill: #ffffff;
+}
 .our-courses-section-item-title {
   font-size: 28px;
   font-weight: 500;
@@ -104,7 +111,7 @@
   }
   .our-courses-section-text {
     font-size: 16px;
-    line-height: 2;
+    line-height: 1.25;
     letter-spacing: -0.32px;
   }
   .our-courses-section-item-title {

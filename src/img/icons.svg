@@ -31,9 +31,9 @@
     <symbol id="icon-x" viewBox="0 0 32 32">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M24 8 8 24M8 8l16 16"/>
     </symbol>
-    <symbol id="icon-arrow-narrow-up-right" viewBox="0 0 32 32">
-<path fill="none" stroke="#777" style="stroke: var(--color1, #777)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M8 24l16-16"></path>
-<path fill="none" stroke="#777" style="stroke: var(--color1, #777)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.0800" d="M13.333 8h10.667v10.667"></path>
-</symbol>
+    
+    <symbol id="icon-vector1" viewBox="0 0 34 32">
+      <path d="m16.128 6.678 11.783-.367-2.408 11.54-3.875-4.618L5.5 26.766l-1.624-1.937 16.128-13.531-3.875-4.62z"/>
+    </symbol>
   </defs>
 </svg>
