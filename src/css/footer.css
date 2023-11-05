@@ -80,3 +80,7 @@
   font-size: 12px;
   line-height: 1.33;
 }
+
+@media screen and (min-width: 375px) {
+  
+}
