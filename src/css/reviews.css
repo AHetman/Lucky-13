@@ -3,10 +3,10 @@
 .title {
     color: #FFF;
     font-family: DM Sans;
-    font-size: 175%;
+    font-size: 28px;
     font-weight: 500;
-    line-height: 175%;
-    letter-spacing: -1.12px;
+    line-height: 1.14em;
+    letter-spacing: 0.04em;
     width: 100px;
     height: 32px;
     margin-bottom: 40px;
@@ -84,8 +84,10 @@
     letter-spacing: 0.02em;
     display: block;
     margin-top: 20px;
-    padding-left: 20px;
+    padding-left: 15px;
     padding-bottom: 20px;
+    text-align: justify;
+    padding-right: 15px;
 }
 
 /* Медиа запросы */
@@ -105,7 +107,7 @@
     }
 
     .stars {
-        margin-left: 309px;
+        margin-left: 290px;
     }
 
     .star-gold {
@@ -130,7 +132,19 @@
     .reviews-inner-right {
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.20);
-        display: grid;
+        max-width: 530px;
+        display: inline-block;
+    }
+
+    .reviews-inner-left {
+        max-width: 530px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+        border-radius: 12px;
+        display: inline-block;
+        margin-top: 0;
+
+        position: relative;
+        margin-right: 10px;
     }
 
     .reviews-all {
@@ -138,14 +152,10 @@
     }
 
     .reviews-block {
-        display: -webkit-inline-box;
-        max-width: 562px;
-        gap: 20px;
-    }
+        max-width: 1080px;
+        border: none;
 
-
-    .reviews-inner-left {
-        margin-top: 20px;
+        position: relative;
 
     }
 
@@ -154,18 +164,25 @@
     }
 
     .stars {
-        margin-left: 440px;
-        margin-top: -71px;
+        margin: 0;
+        display: inline-block;
+
+        right: 20px;
+        position: absolute;
+        top: 10px;
+    }
+
+
+    .text-box-man {
+        display: inline-block;
+        top: 25px;
+        position: absolute;
     }
 
     .text-box-girl {
-        display: flex;
-        margin-top: -70px;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        margin-left: -230px;
+        display: inline-block;
+        top: 25px;
+        position: absolute;
     }
 
     .text-review {
@@ -178,5 +195,9 @@
         line-height: 1.25em;
         letter-spacing: 0.02em;
         text-align: justify;
+    }
+
+    .foto-box {
+        margin-top: 20px;
     }
 }
