@@ -1,5 +1,7 @@
 ol {
   list-style-type: none;
+  /* list-style-type: decimal-leading-zero;
+  list-style-position: inside; */
 }
 .our-courses-section-top {
   margin-bottom: 40px;
