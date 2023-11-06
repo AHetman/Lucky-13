@@ -31,8 +31,7 @@
   list-style-position: inside;
 }
 .our-courses-section-item {
-  width: 335px;
-  flex-shrink: 0;
+  max-width: 335px;
   padding: 28px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
@@ -106,7 +105,7 @@
     letter-spacing: -0.04em;
   }
   .our-courses-section-item {
-    width: 342px;
+    max-width: 342px;
     padding: 32px;
   }
   .our-courses-section-text {
@@ -134,11 +133,11 @@
     flex-wrap: nowrap;
   }
   .our-courses-section-item {
-    width: 347px;
+    max-width: 347px;
   }
 }
 @media screen and (min-width: 1440px) {
   .our-courses-section-item {
-    width: 400px;
+    max-width: 400px;
   }
 }
