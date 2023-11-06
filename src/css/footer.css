@@ -1,6 +1,5 @@
 .footer-wrap {
   margin-top: 80px;
-  margin-bottom: 20px;
   background-image: url(/img/footer/Graphicmob.png);
   background-position: 50% 0;
   background-size: cover;
@@ -23,7 +22,8 @@
 .contacts {
   margin-bottom: 40px;
 }
-.contacts-item {
+.contacts-link {
+  color: #fff;
   font-size: 14px;
   line-height: 1.28;
 }
@@ -101,6 +101,7 @@
 .footer-down {
   display: flex;
   justify-content: space-between;
+  padding-bottom: 20px;
 }
 .footer-down-text {
   font-size: 12px;
@@ -116,7 +117,6 @@
 @media screen and (min-width: 768px) {
 .footer-wrap {
   margin-top: 100px;
-  margin-bottom: 25px;
   background-image: url(/img/footer/Graphictab.png);
 }
 .container-footer {
@@ -129,6 +129,9 @@
 }
 .logo-footer {
   margin-top: 0px;
+  width: 130px;
+  height: 22px;
+  padding: 0;
 }
 .footer-lists {
   gap: 25px;
@@ -137,6 +140,9 @@
 }
 .email-field-footer {
   width: 178px;
+}
+.footer-down {
+  padding-bottom: 25px;
 }
 .footer-down-text {
   font-size: 14px;
