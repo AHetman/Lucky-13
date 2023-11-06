@@ -142,6 +142,7 @@ justify-content: end;
 .header-sign-up-link:hover,
 .header-sign-up-link:focus {
   background-color: #1d1d1d;
+  color: #bea69e;
 ;
 } 
 /******MODAL******/
