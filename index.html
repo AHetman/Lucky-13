@@ -220,6 +220,44 @@ height="218">
   </div>
 </section>
 
+<script>
+  // Отримання посилань на елементи DOM
+  const modal = document.querySelector('.modal-window');
+  const openModalButton = document.querySelector('.header-button');
+  const closeModalButton = document.querySelector('.button-band');
+
+  // Функція відкриття модального вікна
+  function openModal() {
+    modal.style.display = 'block';
+  }
+
+  // Функція закриття модального вікна
+  function closeModal() {
+    modal.style.display = 'none';
+  }
+
+  // Додавання обробників подій для кнопок відкриття та закриття
+  openModalButton.addEventListener('click', openModal);
+  closeModalButton.addEventListener('click', closeModal);
+
+  // Додавання обробників подій для закриття модального вікна при кліку поза вікном
+  window.addEventListener('click', event => {
+    if (event.target === modal) {
+      closeModal();
+    }
+  });
+
+  // Close the mobile menu on wider screens if the device orientation changes
+  window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
+    if (e.matches) {
+      // Код для закриття мобільного меню тут
+      mobileMenu.classList.remove('is-open');
+      openMenuBtn.setAttribute('aria-expanded', false);
+      bodyScrollLock.enableBodyScroll(document.body);
+    }
+  });
+</script>
+
     <!-- Олена -->
     <section id="Our-courses" class="our-courses-section">
     <div class="container">
