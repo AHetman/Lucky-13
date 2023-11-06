@@ -43,7 +43,6 @@
 
 @media screen and (min-width: 768px) {
   .our-mentors-title {
-    /* margin-left: 0; */
     margin-top: 100px;
     margin-bottom: 50px;
     font-size: 48px;
@@ -55,8 +54,30 @@
     gap: 93px 100px;
   }
   .our-mentors-item {
-    /* max-width: 194px; */
     width: calc((100% - 100px) / 2);
+    max-width: 190px;
+  }
+  .our-mentors-img {
+    border-radius: 200px;
+    background: linear-gradient(
+      rgba(211, 211, 211, 0.5),
+      rgba(211, 211, 211, 0.5)
+    );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 16px;
+  }
+
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and(min-resolution: 192dpi),
+    screen and(min-resolution: 2dppx) {
+    .mentors-image {
+      background: linear-gradient(
+        rgba(211, 211, 211, 0.5),
+        rgba(211, 211, 211, 0.5)
+      );
+    }
   }
   .our-mentors-name {
     font-size: 28px;
@@ -74,12 +95,19 @@
     margin-top: 150px;
   }
   .our-mentors-list {
-    gap: 100px;
+    /* gap: 100px; */
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 93px;
+    justify-content: center;
   }
   .our-mentors-item {
-    max-width: 194px;
+    max-width: 190px;
   }
 }
 
-@media screen and (min-width: 1440px) {
-}
+/* @media screen and (min-width: 1440px) {
+  .our-mentors-list {
+    gap: 113px;
+  }
+} */

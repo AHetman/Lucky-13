@@ -1,20 +1,19 @@
 /* Reviews */
 
-
 .title {
     color: #FFF;
     font-family: DM Sans;
-    font-size: 175%;
+    font-size: 28px;
     font-weight: 500;
-    line-height: 175%;
-    letter-spacing: -1.12px;
+    line-height: 1.14em;
+    letter-spacing: 0.04em;
     width: 100px;
     height: 32px;
     margin-bottom: 40px;
 }
 
 .reviews-block {
-    width: 335px;
+    max-width: 335px;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.20);
 }
@@ -32,25 +31,19 @@
     display: inline-block;
 }
 
-
-.star-gold {
-    fill: aqua;
-}
-
 .name-student {
     color: #FFF;
     font-family: DM Sans;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    margin-bottom: 4px
+    margin-bottom: 4px;
 }
 
 .reviews-inner-left {
     margin-top: 26px;
     display: flex;
     flex-wrap: wrap;
-
 }
 
 .reviews-inner-right {
@@ -72,7 +65,15 @@
 
 .star-line {
     margin-top: 10px;
-    display: inline-flex
+    display: inline-flex;
+}
+
+.star-gold {
+    fill: #BEA69E;
+}
+
+.svg-tranform-reviews-black {
+    fill: #FFFFFF33;
 }
 
 .text-review {
@@ -83,7 +84,126 @@
     letter-spacing: 0.02em;
     display: block;
     margin-top: 20px;
-    padding-left: 20px;
-
+    padding-left: 15px;
     padding-bottom: 20px;
+    text-align: justify;
+    padding-right: 15px;
+}
+
+/* Медиа запросы */
+
+@media screen and (min-width: 768px) {
+
+    .reviews-all {
+        max-width: 704px;
+    }
+
+    .reviews-block {
+        max-width: 640px;
+        margin: 0 auto;
+    }
+
+    .foto {
+        display: inline-block;
+    }
+
+    .stars {
+        margin-left: 290px;
+    }
+
+    .star-gold {
+        text-align: right;
+    }
+
+    .star-line {
+        display: flex;
+    }
+
+    .text-review {
+        padding: 20px 20px;
+        text-align: justify;
+        width: 600px;
+        margin-top: 0;
+    }
+
+    .title {
+        margin-bottom: 50px;
+        font-size: 48px;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    .reviews-inner-right {
+        border-radius: 12px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+        max-width: 530px;
+        display: inline-block;
+    }
+
+    .reviews-inner-left {
+        max-width: 530px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+        border-radius: 12px;
+        display: inline-block;
+        margin-top: 0;
+
+        position: relative;
+        margin-right: 10px;
+    }
+
+    .reviews-all {
+        max-width: 1080px;
+    }
+
+    .reviews-block {
+        max-width: 1080px;
+        border: none;
+        position: relative;
+
+    }
+
+    .girl-box {
+        margin-top: 20px;
+    }
+
+    .stars {
+        margin: 0;
+        display: inline-block;
+        right: 20px;
+        position: absolute;
+        top: 10px;
+    }
+
+
+    .text-box-man {
+        display: inline-block;
+        top: 25px;
+        position: absolute;
+    }
+
+    .text-box-girl {
+        display: inline-block;
+        top: 25px;
+        position: absolute;
+    }
+
+    .text-review {
+        width: 100%;
+        color: #FFF;
+        font-family: DM Sans;
+        font-size: 16px;
+        line-height: 1.25em;
+        letter-spacing: 0.02em;
+        text-align: justify;
+    }
+
+    .foto-box {
+        margin-top: 20px;
+    }
+
+    .title {
+        margin-bottom: 50px
+    }
 }
