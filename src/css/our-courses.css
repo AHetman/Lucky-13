@@ -1,14 +1,14 @@
 .our-courses-section-top {
   margin-bottom: 40px;
 }
-.section-title {
+.our-courses-section-title {
   font-size: 28px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -0.04em;
   margin-bottom: 20px;
 }
-.section-title-part {
+.our-courses-section-title-part {
   color: #bea69e;
   font-size: 28px;
   font-weight: 500;
@@ -92,14 +92,14 @@
     gap: 58px;
     margin-bottom: 50px;
   }
-  .section-title {
+  .our-courses-section-title {
     font-size: 48px;
     line-height: 1.12;
     letter-spacing: -0.04em;
     margin-bottom: 0;
-    width: 265px;
+    min-width: 265px;
   }
-  .section-title-part {
+  .our-courses-section-title-part {
     color: #bea69e;
     font-size: 48px;
     line-height: 1.25;
