@@ -79,6 +79,9 @@ gap: 14px
   width: 52%;
   max-width: 218px;
 }
+.button-color{
+  stroke:#121212;
+}
 .button-band {
   background: none;
   border: none;
