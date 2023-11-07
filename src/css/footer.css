@@ -1,15 +1,15 @@
 .footer-wrap {
   margin-top: 80px;
   background-image: url(/img/footer/Graphicmob.png);
-  background-position: 50% 0;
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   border-top: 1px solid rgba(255, 255, 255, 0.2);
 } 
 @media screen and (min-resolution: 192dpi) {
-  .footer {
-    background-image: url(/img/footer/Graphicmob_@2x.png);
-  }
+.footer-wrap {
+  background-image: url(/img/footer/Graphicmob_@2x.png);
+}
 }
 .container-footer {
   display: block;
@@ -66,13 +66,11 @@
   gap: 8px;
   margin-bottom: 40px;
   justify-content: space-between;
-  
 }
 .email-field-footer {
   width: 100%;
   height: 60px;
   
-
   border: none;
   border-radius: 12px;
   background: #fff;
@@ -150,16 +148,16 @@
 }
 }
 @media screen and (min-width: 768px) and (min-resolution: 192dpi) {
-  .footer-wrap {
-    background-image: url(/img/footer/Graphictab_@2x.png);
-  }
+.footer-wrap {
+  background-image: url(/img/footer/Graphictab_@2x.png);
+}
 }
 
 
 @media screen and (min-width: 1280px) {
-.foote-wrap {
+.footer-wrap {
   margin-top: 150px;
-  background-image: url(/img/footer/Graphicdesk1.png);
+  background-image: url(/img/footer/Graphicdesk.png);
 }
 .container-footer {
   margin-bottom: 50px;
@@ -171,6 +169,12 @@
   gap: 50px;
   margin-right: 137px;
 }
+.networks-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.anchor-item:not(:last-child) {
+  margin-bottom: 20px;
+}
 .email-field-footer {
   width: 216px;
 }
@@ -179,7 +183,7 @@
 }
 }
 @media screen and (min-width: 1280px) and (min-resolution: 192dpi) {
-  .footer-wrap {
-    background-image: url(/img/footer/Graphicdesk1_@2x.png);
-  }
+.footer-wrap {
+  background-image: url(/img/footer/Graphicdesk_@2x.png);
+}
 }
