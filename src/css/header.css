@@ -151,8 +151,9 @@ justify-content: end;
 /******MODAL******/
 
 .modal-button {
-  width: 61%;
+  width: 63%;
   max-width: 480px;
+  height: 100%;
   
 }
 .navigation-band {
