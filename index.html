@@ -357,10 +357,11 @@ media="(min-width:768px)"
         <label class="sign-form-label">
           <input
             type="text"
-            pattern="[A-Za-z-]{1,30}"
+            pattern="[A-Za-zА-Яа-яІіЇїЄє\-]{1,30}"
             class="sign-form-input"
             name="user-name"
             placeholder="Enter your name"
+            required
           />
         </label>
         <label class="sign-form-label">
@@ -370,6 +371,7 @@ media="(min-width:768px)"
             class="sign-form-input"
             name="email"
             placeholder="Enter your email"
+            required
           />
         </label>
         <label class="sign-form-label">
@@ -394,6 +396,8 @@ media="(min-width:768px)"
           src="/Lucky-13/assets/camera-optics-2e6a172f.png"
           alt="camera optics"
           class="sign-img sign-img-cameraoptics"
+          width="203"
+          height="202"
         />
       </div>
       <div class="sign-img-wrapper-camera">
