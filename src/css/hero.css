@@ -20,7 +20,7 @@
   font-weight: 500;
   line-height: 1.1;
   letter-spacing: -0.04em;
-  width: 295px;
+  max-width: 295px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -183,7 +183,7 @@
     font-weight: 500;
     line-height: 1.07;
     letter-spacing: -0.04px;
-    width: 517px;
+    max-width: 517px;
     margin-left: 32px;
     margin-bottom: 20px;
   }
@@ -303,7 +303,7 @@
     font-size: 64px;
     line-height: 1.06;
     letter-spacing: -0.04em;
-    width: 530px;
+    max-width: 530px;
     height: 204px;
     margin-left: 5px;
   }
